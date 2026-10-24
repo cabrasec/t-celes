@@ -1,0 +1,8 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'self'; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com 'sha256-RfImgoApjVyuFBdb62IkSN+Mmavm3b0KiwHKNPmbCII=' 'sha256-zv78+XIOyvNQT89G2gJg+DnztJMK3zUhW5Gzxo2Mpzo='; script-src 'self' 'sha256-tLJbLIYpRdtAnT7TKO1K6MvT4xGq1LmJMsUgXALr2PM='; connect-src 'self'; upgrade-insecure-requests"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), geolocation=(), microphone=(), payment=(), usb=()"
+    X-Frame-Options = "DENY"
